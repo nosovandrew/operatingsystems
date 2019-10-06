@@ -48,7 +48,7 @@ int main(int argc, const char * argv[]) {
         std::cout << fullA[i] << ' ';
     }
     
-    // Находим пропуски
+    // Находим пустые символы
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < lastEl; j++) {
             if (A[i] == fullA[j]) {
